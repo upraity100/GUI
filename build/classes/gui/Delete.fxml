@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="379.0" prefWidth="530.0" stylesheets="@CSS.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DeleteController">
+   <children>
+      <Button fx:id="backHandler" layoutX="444.0" layoutY="31.0" mnemonicParsing="false" onAction="#backHandler" prefHeight="52.0" prefWidth="52.0">
+          <font>
+            <Font name="System Bold" />
+         </font></Button>
+          
+      <Button fx:id="deleteHandler" layoutX="224.0" layoutY="221.0" mnemonicParsing="false" onAction="#deleteHandler" prefHeight="65.0" prefWidth="68.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <Label layoutX="225.0" layoutY="50.0" text="Delete" textFill="#05f815">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentRollTxt" layoutX="154.0" layoutY="112.0" prefHeight="25.0" prefWidth="222.0" promptText="Enter student roll" />
+      <TextField fx:id="nameTxt" layoutX="155.0" layoutY="155.0" prefHeight="25.0" prefWidth="222.0" promptText="Enter name" />
+      <FontAwesomeIconView glyphName="TRASH" layoutX="250.0" layoutY="260.0" size="20" />
+      <FontAwesomeIconView fill="#0a181f" glyphName="ARROW_LEFT" layoutX="464.0" layoutY="62.0" size="15" text="" />
+   </children>
+</AnchorPane>

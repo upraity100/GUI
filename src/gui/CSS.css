@@ -1,0 +1,16 @@
+.root{
+    -fx-border-color:black;
+    -fx-border-width: 6;
+     -fx-background-image:url("abc.jpg");
+    -fx-background-size: 600;
+   
+   
+    
+}
+.button:hover{
+    -fx-background-color: lightgreen ; 
+     -fx-background-radius:50; 
+}
+.button{
+
+}
